@@ -1,8 +1,5 @@
 # AngularJS-Gulp-Browserify Starter App
 
-****************************************************
-**Please Note:** This project is no longer actively maintained and there is no support available for problems encountered. If you choose to work with this starter, you'll have to debug the problems on your own as I no longer have relevant Angular knowledge now that I've moved on to ReactJS.
-****************************************************
 
 This Angular starter app is built with best practices in mind. The folder structure is intended to be different than the standard official AngularJS application. The application architecture follows modern design conventions from the proposal outlined here:
 
@@ -208,11 +205,3 @@ The ```vendor.js``` contains uses browserify to bundle all of the third party li
 
 While the ```bundle.js``` file is your continuously evolving application, the ```vendor.js``` file is largely static and unchanging (except when you update third party modules or add new ones). As such, your bundle.js file can remain signficiantly smaller in file size, and thus improves the speed of your browserify bundling.
 
-### Contributing
-This project is open source so collaboration is welcome. If you see a way to improve something in this project, please feel free to open a Pull Request to the *develop* branch so we can discuss your code.
-
-### Learning Resouces
-- https://github.com/curran/screencasts/tree/gh-pages/introToAngular
-- https://www.codeschool.com/courses/shaping-up-with-angular-js
-- http://egghead.io
-- http://thinkster.io
